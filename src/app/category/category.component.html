@@ -1,0 +1,10 @@
+<p>Minha biblioteca de musica:</p>
+<form #myForm="ngForm" (submit)="saveData(myForm)">
+    <div>
+       <p>Nova Categoria:</p>
+        <input type="text" name="nome" [(ngModel)]="newCategory.name">
+      </div>
+      <input type="submit" value="Salvar">
+
+    
+</form>
